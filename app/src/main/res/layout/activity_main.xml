@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:padding="20dp"
     tools:context=".MainActivity">
 
@@ -13,5 +14,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="변수 활용 연습 1"/>
+
+    <Button
+        android:id="@+id/btnVariable02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="변수 활용 연습 2"/>
+
+
+
+
 
 </LinearLayout>
